@@ -1,11 +1,11 @@
 def my_decortator(func):
     def wrapper(username=None, password=None):
-        # try:
+      
         username=input("Enter your username: ")
         if username == '':
             raise Exception ("No username defined!")
-        # except ValueError: 
-            # '' 
+        
+            
         else:
             # if username=='username':
         # pass
